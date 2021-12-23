@@ -23,16 +23,17 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="default" />
+        </datasource-mapping>
         <naming-strategy-map />
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/classes" />
-    <output-test url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/classes" />
-    <exclude-output />
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
@@ -49,5 +50,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.26" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.11.4" level="project" />
   </component>
 </module>
