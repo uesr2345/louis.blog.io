@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="top-louis-blog-meven:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>top-louis-blog-meven</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="top-louis-blog-meven-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="top-louis-blog-meven:war exploded" />
+    </root>
+  </artifact>
+</component>
